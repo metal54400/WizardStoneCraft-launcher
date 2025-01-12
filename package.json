@@ -5,9 +5,9 @@
     "description": "Launcher Mincraft pour le serveur WizardStoneCraft",
     "main": "src/app.js",
     "author": {
-        "name": "luuxis,metal54400 ,Inc.",
-        "email": "contact@luuxis.fr",
-        "url": "https://github.com/luuxis"
+        "name": "metal54400",
+        "email": "mathéocillierfavier@gmail.com",
+        "url": "https://github.com/metal54400, http://5.48.143.126:25565"
     },
     "url": "http://5.48.143.126:25594",
     "scripts": {
