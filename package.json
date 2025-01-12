@@ -1,20 +1,20 @@
 {
-    "name": "Selvania-Launcher",
-    "preductname": "Selvania Launcher",
+    "name": "WizardStoneCraft-Launcher",
+    "preductname": "WizardStoneCraft Launcher",
     "version": "2.0.7",
-    "description": "Launcher Mincraft pour le serveur Selvania",
+    "description": "Launcher Mincraft pour le serveur WizardStoneCraft",
     "main": "src/app.js",
     "author": {
-        "name": "luuxis, Inc.",
+        "name": "luuxis,metal54400 ,Inc.",
         "email": "contact@luuxis.fr",
         "url": "https://github.com/luuxis"
     },
-    "url": "http://launcher.luuxis.fr",
+    "url": "http://5.48.143.126:25594",
     "scripts": {
         "start": "cross-env-shell NODE_ENV=dev electron .",
         "dev": "cross-env-shell DEV_TOOL=open nodemon --exec npm start",
         "build": "node build.js --obf=true --build=platform",
-        "icon": "node build.js --icon=https://raw.githubusercontent.com/luuxis/Selvania-Launcher/master/src/assets/images/icon.png"
+        "icon": "node build.js --icon=https://raw.githubusercontent.com/metal54400/Icon/refs/heads/main/icon.png?token=GHSAT0AAAAAAC3HMKTROLKPONHGK57TK5HMZ4D23MQ"
     },
     "license": "CCANC",
     "nodemonConfig": {
