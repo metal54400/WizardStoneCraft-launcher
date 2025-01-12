@@ -83,8 +83,8 @@ class Home {
                     </div>
                     <div class="news-content">
                         <div class="bbWrapper">
-                            <p>System de Reputation Activé<</p>
-                            <p>merci pour le launcher metal54400 /br>Merci merci de Vouloir Attendrer l'ouverture</p>
+                            <p>System de Reputation Activé</p>
+                            <p>merci pour le launcher metal54400</br>Merci merci de Vouloir Attendrer l'ouverture</p>
                         </div>
                     </div>`
             newsElement.appendChild(blockNews);
