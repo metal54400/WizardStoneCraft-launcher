@@ -14,7 +14,6 @@ class Splash {
     constructor() {
         this.splash = document.querySelector(".splash");
         this.splashMessage = document.querySelector(".splash-message");
-        this.splashAuthor = document.querySelector(".splash-author");
         this.message = document.querySelector(".message");
         this.progress = document.querySelector(".progress");
         document.addEventListener('DOMContentLoaded', async () => {
