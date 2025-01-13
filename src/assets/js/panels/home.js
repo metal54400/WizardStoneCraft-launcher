@@ -77,14 +77,15 @@ class Home {
                             <div class="title">Mise A Jour N°1</div>
                         </div>
                         <div class="date">
-                            <div class="day">12</div>
+                            <div class="day">13</div>
                             <div class="month">Janvier</div>
+                            <div class="année">2025</div>
                         </div>
                     </div>
                     <div class="news-content">
                         <div class="bbWrapper">
                             <p>System de Reputation Activé</p>
-                            <p>merci pour le launcher metal54400</br>Merci merci de Vouloir Attendrer l'ouverture</p>
+                            <p>merci a metal54400 pour le launcher </br>Merci merci de Vouloir Attendrer l'ouverture</p>
                         </div>
                     </div>`
             newsElement.appendChild(blockNews);
