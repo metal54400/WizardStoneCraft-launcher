@@ -17,7 +17,7 @@
         "icon": "node build.js --icon=http://5.48.143.126:25565/img/icon.png"
 
     },
-    "license": "CCANC",
+    "license": "WizardGames",
     "nodemonConfig": {
         "ext": "js,html,css",
         "ignore": "**/test"
