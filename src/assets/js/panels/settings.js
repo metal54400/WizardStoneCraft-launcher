@@ -18,6 +18,7 @@ class Settings {
         this.javaPath()
         this.resolution()
         this.launcher()
+        this.Ressources()
     }
 
     navBTN() {
@@ -196,6 +197,8 @@ class Settings {
             configClient.java_config.java_path = null
             await this.db.updateData('configClient', configClient);
         });
+
+        
     }
 
     async resolution() {
@@ -323,6 +326,7 @@ class Settings {
             }
         })
     }
+    
 }
 
 

@@ -205,7 +205,7 @@
 .social-block .icon-map {
     pointer-events: none;
     background-repeat: no-repeat;
-    height: 55%;
+    height: 90%;
     width: 55%;
     filter: var(--svg-color);
     background: url('../../images/map.png'), no-repeat;
@@ -263,7 +263,6 @@
     justify-content: space-between;
     align-items: center;
     position: relative;
-    border: solid 3px var(--element-color);
     border-radius: 15px;
     height: 3.2rem;
     padding-right: 1.9rem;
@@ -273,26 +272,27 @@
     border: none;
     border-radius: 10px;
     background: none;
-    color: var(--color);
+    background-color: #0447ff;
+    color: #fff;
     font-size: 2rem;
     font-weight: bolder;
     padding: 0 1.5rem;
-    pointer-events: none;
+    cursor: pointer;
 }
 
 .instance-select {
     display: flex;
     align-items: center;
     position: absolute;
-    right: -3;
+    right: -6;
     top: -2;
-    color: var(--element-color);
-    font-size: 1rem;
+    color: #fff;
+    background-color: #0447ff;
+    font-size: 2rem;
     height: calc(100% - 1px);
-    border: solid 3px var(--element-color);
     text-align: center;
     border-radius: 15px;
-    padding: 0 0.5rem;
+    padding: 0 0.1rem;
     cursor: pointer;
 }
 
@@ -314,7 +314,7 @@
 
 .progress-bar::-webkit-progress-bar {
     background-color: var(--background);
-    border: solid 1px var(--element-color);
+    border: solid 1px color(#0447ff);
     border-radius: 10px;
 }
 
@@ -327,7 +327,9 @@
     width: 3rem;
     height: 3rem;
     font-size: 3rem;
-    color: var(--element-color);
+    color: #fff;
+    background-color: #0447ff;
+    border-radius: 15px;
     margin: 0 1.5rem;
 }
 
@@ -379,9 +381,9 @@
 }
 
 .instance-elements:hover {
-    background: var(--element-color);
+    background-color: #0447ff ;
 }
 
 .active-instance {
-    background: var(--element-color);
+    background-color: #0447ff;
 }
