@@ -29,16 +29,16 @@ class Home {
                     <div class="news-header">
                         <img class="server-status-icon" src="assets/images/icon.png">
                         <div class="header-text">
-                        <div class="title">System de Reputation Activé</div>
+                            <div class="title">Aucun news n'ai actuellement disponible.</div>
                         </div>
                         <div class="date">
-                            <div class="day">12</div>
+                            <div class="day">1</div>
                             <div class="month">Janvier</div>
                         </div>
                     </div>
                     <div class="news-content">
                         <div class="bbWrapper">
-                            <p>merci de Vouloir Attendrer l'ouverture</p>
+                            <p>Vous pourrez suivre ici toutes les news relative au serveur.</p>
                         </div>
                     </div>`
                 newsElement.appendChild(blockNews);
@@ -74,12 +74,10 @@ class Home {
                 <div class="news-header">
                         <img class="server-status-icon" src="assets/images/icon.png">
                         <div class="header-text">
-                            <div class="title">Mise A Jour N°1</div>
+                            <div class="title">Mise A Jour N°2 : Launcher</div>
                         </div>
                         <div class="date">
-                            <div class="day">13</div>
-                            <div class="month">Janvier</div>
-                            <div class="année">2025</div>
+                            <div class="week">Lundi 13 Janvier 2025</div>
                         </div>
                     </div>
                     <div class="news-content">

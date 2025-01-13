@@ -202,6 +202,15 @@
     filter: var(--svg-color);
 }
 
+.social-block .icon-map {
+    pointer-events: none;
+    background-repeat: no-repeat;
+    height: 55%;
+    width: 55%;
+    filter: var(--svg-color);
+    background: url('../../images/map.png'), no-repeat;
+}
+
 /*******************************************************************************
  *                                                                             *
  * sidebar                                                                     *
@@ -227,7 +236,7 @@
 }
 
 .player-head {
-    background: url('../../images/default/setve.png'), no-repeat;
+    background: url('../../images/default/steve.png'), no-repeat;
     background-size: cover;
     image-rendering: pixelated;
     transition: var(--transition);
