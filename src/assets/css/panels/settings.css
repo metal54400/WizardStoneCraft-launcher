@@ -6,7 +6,7 @@
 .nav-settings {
     width: 20%;
     height: 100%;
-    background: var(--background);
+    background-color: var(--background);
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -33,7 +33,7 @@
 
 .nav-settings-btn {
     font-size: 50%;
-    border: solid 4px var(--element-color);
+    background-color: #0447ff;
     padding: 5px 10px;
     border-radius: 10px;
     width: 70%;
@@ -43,7 +43,7 @@
 }
 
 .active-settings-BTN {
-    background: var(--element-color);
+    background-color: #0447ff;
 }
 
 .container-settings {
