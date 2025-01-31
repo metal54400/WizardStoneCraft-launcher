@@ -1,20 +1,20 @@
 {
     "name": "WizardStoneCraft-Launcher",
     "preductname": "WizardStoneCraft Launcher",
-    "version": "2.0.7",
+    "version": "2.0.8",
     "description": "Launcher Mincraft pour le serveur WizardStoneCraft",
     "main": "src/app.js",
     "author": {
-        "name": "metal54400",
+        "name": "metal54400 , GoldenNuggets , MetalGames studio",
         "email": "mathéocillierfavier@gmail.com",
         "url": "https://github.com/metal54400, http://5.48.143.126:25565"
     },
-    "url": "http://5.48.143.126:25594",
+    "url": "http://5.48.143.126:25565/launcher",
     "scripts": {
         "start": "cross-env-shell NODE_ENV=dev electron .",
         "dev": "cross-env-shell DEV_TOOL=open nodemon --exec npm start",
         "build": "node build.js --obf=true --build=platform",
-        "icon": "node build.js --icon=http://5.48.143.126:25565/img/icon.png"
+        "icon": "node build.js --icon=http://5.48.143.126:25565/img/server-icon.png"
 
     },
     "license": "WizardGames",
