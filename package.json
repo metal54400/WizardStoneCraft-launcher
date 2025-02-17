@@ -1,7 +1,7 @@
 {
     "name": "WizardStoneCraft-Launcher",
     "preductname": "WizardStoneCraft Launcher",
-    "version": "2.0.8",
+    "version": "2.0.9",
     "description": "Launcher Mincraft pour le serveur WizardStoneCraft",
     "main": "src/app.js",
     "author": {
@@ -14,11 +14,11 @@
         "start": "cross-env-shell NODE_ENV=dev electron .",
         "dev": "cross-env-shell DEV_TOOL=open nodemon --exec npm start",
         "build": "node build.js --obf=true --build=platform",
-        "icon": "node build.js --icon=http://5.48.143.126:25565/img/server-icon.png"
+        "icon": "node build.js --icon=http://5.48.143.126:25565/img/icon.png"
 
     },
     "license": "WizardGames",
-    "nodemonConfig": {
+    "nodemonConfig": { 
         "ext": "js,html,css",
         "ignore": "**/test"
     },
